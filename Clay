@@ -5,8 +5,8 @@ local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 ---====== Create entity ======---
 
 local entity = Spawner.createEntity({
-    CustomName = "Flash Rush",
-    Model = "https://github.com/RegularVynixu/Utilities/blob/main/Doors/Entity%20Spawner/Assets/Entities/Rush.rbxm?raw=true", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
+    CustomName = "Clay",
+    Model = "https://raw.githubusercontent.com/RustMani/CustomDoorsEntities/main/Png.png", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
     Speed = 1000,
     MoveDelay = 5,
     HeightOffset = 0,
@@ -16,11 +16,11 @@ local entity = Spawner.createEntity({
     ShatterLights = true,
     FlickerLights = {
         Enabled = true,
-        Duration = 1
+        Duration = 5
     },
     Cycles = {
-        Min = 1,
-        Max = 1,
+        Min = 3,
+        Max = 7,
         Delay = 2
     },
     CamShake = {
@@ -30,7 +30,7 @@ local entity = Spawner.createEntity({
     },
     ResistCrucifix = false,
     BreakCrucifix = true,
-    DeathMessage = {"Skill issue, "Skill issue", "Skill issue", "Skill issue", "Skill issue."},
+    DeathMessage = {"It seems as if you have a SKILL ISSUE!!"},
     IsCuriousLight = false
 })
 
